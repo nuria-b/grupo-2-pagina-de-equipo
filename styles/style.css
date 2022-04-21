@@ -1,0 +1,50 @@
+/* Estructura principal */
+*{
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Menú de navegación */
+nav{
+    height: 5%;
+    background-color: red;
+}
+/* Cabecera */
+header{
+    height: 100%;
+    background-color: blue;
+}
+/* Principal */
+main{
+    height: 20%;
+    background-color: yellowgreen;
+}
+/* Sección 1 Mision */
+.mision{
+    height: 25%;
+    background-color: pink;
+}
+}
+/* Sección 2 Idea */
+.idea{
+    height: 20%;
+    background-color: grey;
+}
+/* Sección 3 Proyectos */
+.proyectos{
+    height: 20%;
+    background-color: rebeccapurple;
+}
+/* Sección 4 Miembros */
+.miembros{
+    height: 15%;
+    background-color: orange;
+}
+/* Footer */
+footer{
+    height: 5%;
+    background-color: maroon;
+}
