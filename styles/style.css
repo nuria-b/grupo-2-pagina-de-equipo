@@ -5,11 +5,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    padding: 0;
 }
 
 body {
     width: 100vw;
     height: 100vh;
+    display: grid;
 }
 
 
@@ -106,8 +108,13 @@ main {
 
 .idea {
     height: 20%;
-    background-color: grey;
 }
+
+
+/* Sección 1 Mision */
+
+
+/* Sección 2 Idea */
 
 
 /* Sección 3 Proyectos */
@@ -120,15 +127,51 @@ main {
 
 /* Sección 4 Miembros */
 
-.miembros {
+
+/* .miembros {
     height: 15%;
+} */
+
+
+/* .proyectos{
+    background-color: seagreen;
+} */
+
+.grid-proyectos {
     background-color: orange;
+    display: grid;
+    /* Código para media querie mobile first */
+    grid-template-columns: auto;
+    padding: 3em;
+    /* Código para media querie pantalla ordenador - tv */
+    /*grid-template-columns: repeat(4, 25%); 
+    grid-gap: 9em;*/
+}
+
+.proyectos>h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/* Sección 4 Miembros */
+
+.miembros {
+    background-color: blueviolet;
 }
 
 
 /* Footer */
 
 footer {
-    height: 5%;
     background-color: maroon;
 }
+
+
+/* Media queries */
+
+
+/* 
+@media (max-width: 600px) {
+}
+*/
