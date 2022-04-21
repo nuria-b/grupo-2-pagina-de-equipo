@@ -1,51 +1,134 @@
 /* Estructura principal */
-*{
+
+* {
     margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
 }
 
+
 /* Menú de navegación */
-nav{
-    height: 5%;
-    background-color: red;
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
 }
+
+.logo {
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    background: #1b9bff;
+    transition: 0.5s;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+@media (max-witdh: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .nav-link {
+        font-size: 16px;
+        display: block;
+    }
+}
+
+
 /* Cabecera */
-header{
+
+header {
     height: 100%;
     background-color: blue;
 }
+
+
 /* Principal */
-main{
+
+main {
     height: 20%;
     background-color: yellowgreen;
 }
+
+
 /* Sección 1 Mision */
-.mision{
+
+.mision {
     height: 25%;
     background-color: pink;
 }
-}
+
+
 /* Sección 2 Idea */
-.idea{
+
+.idea {
     height: 20%;
     background-color: grey;
 }
+
+
 /* Sección 3 Proyectos */
-.proyectos{
+
+.proyectos {
     height: 20%;
     background-color: rebeccapurple;
 }
+
+
 /* Sección 4 Miembros */
-.miembros{
+
+.miembros {
     height: 15%;
     background-color: orange;
 }
+
+
 /* Footer */
-footer{
+
+footer {
     height: 5%;
     background-color: maroon;
 }
