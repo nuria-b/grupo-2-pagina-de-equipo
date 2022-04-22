@@ -1,66 +1,184 @@
 /* Estructura principal */
-*{
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(http://fonts.google.com/specimen/Comfortaa?query=co);
+    Font-style: normal;
+    font-weight: normal;
+}
+html{
+    font-family: Comfortaa;
+}
+* {
     margin: 0;
-    /*padding: 0;*/
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: grid;
 }
 
+
 /* Menú de navegación */
-nav{
-    background-color: red;
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
 }
+
+.logo {
+    color: aliceblue;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.nav-link {
+    color: aliceblue;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+.nav-link:hover {
+    background: #1b9bff;
+    transition: 0.5s;
+}
+
+#check {
+    display: none;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+@media (max-witdh: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .nav-link {
+        font-size: 16px;
+        display: block;
+    }
+}
+
+
 /* Cabecera */
-header{
-    height: 100vh;
-    background-color: seagreen;
+
+header {
+    height: 100%;
+    background-color: blue;
 }
+
+
 /* Principal */
 
 /* Sección 1 Mision */
 .mision{
     background-color: blueviolet;
+    
 }
+
+
+/* Sección 1 Mision */
+
+.mision {
+    height: 25%;
+    background-color: pink;
+}
+
 
 /* Sección 2 Idea */
-.idea{
-    background-color: grey;
-}
-/* Sección 3 Proyectos */
-.proyectos{
-    background-color: seagreen;
+
+.idea {
+    height: 20%;
 }
 
-.grid-proyectos{
+
+/* Sección 1 Mision */
+
+
+/* Sección 2 Idea */
+
+
+/* Sección 3 Proyectos */
+
+.proyectos {
+    height: 20%;
+    background-color: rebeccapurple;
+}
+
+
+/* Sección 4 Miembros */
+
+
+/* .miembros {
+    height: 15%;
+} */
+
+
+/* .proyectos{
+    background-color: seagreen;
+} */
+
+.grid-proyectos {
     background-color: orange;
     display: grid;
     /* Código para media querie mobile first */
     grid-template-columns: auto;
     padding: 3em;
-
     /* Código para media querie pantalla ordenador - tv */
     /*grid-template-columns: repeat(4, 25%); 
     grid-gap: 9em;*/
 }
-.proyectos>h2{
+
+.proyectos>h2 {
     font-size: 2em;
     text-align: center;
 }
 
-  /* Sección 4 Miembros */
-.miembros{
+
+/* Sección 4 Miembros */
+
+.miembros {
     background-color: blueviolet;
 }
+
+
 /* Footer */
-footer{
+
+footer {
     background-color: maroon;
 }
 
+
 /* Media queries */
+
 
 /* 
 @media (max-width: 600px) {
