@@ -90,31 +90,31 @@ header {
 
 /* Principal */
 
-<<<<<<< HEAD
 /* Sección 1 Mision */
 .mision{
     background-color: blueviolet;
     
-=======
 main {
     height: 20%;
     background-color: yellowgreen;
->>>>>>> 74c76fc9ef1a635022f4b481a1bf79ec9e148aea
 }
 
 
 /* Sección 1 Mision */
 
 .mision {
-    height: 25%;
-    background-color: pink;
+    background-color: #D8BFD8;
+    
+
+
+
 }
 
 
 /* Sección 2 Idea */
 
 .idea {
-    height: 20%;
+    height:
 }
 
 
@@ -127,7 +127,7 @@ main {
 /* Sección 3 Proyectos */
 
 .proyectos {
-    height: 20%;
+    height: 
     background-color: rebeccapurple;
 }
 
