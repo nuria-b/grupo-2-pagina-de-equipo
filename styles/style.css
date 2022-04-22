@@ -187,13 +187,13 @@ header {
 
 /* media query para equipo */
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
     .equipo-card {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     .equipo-card {
         grid-template-columns: repeat(4, 1fr);
     }
