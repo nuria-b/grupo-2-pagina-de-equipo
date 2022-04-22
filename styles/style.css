@@ -23,7 +23,7 @@ nav {
     width: 100%;
 }
 
-.logo {
+label.logo {
     color: aliceblue;
     font-size: 35px;
     line-height: 80px;
@@ -42,7 +42,7 @@ nav ul li {
     margin: 0 5px;
 }
 
-.nav-link {
+nav ul li a {
     color: aliceblue;
     font-size: 17px;
     text-transform: uppercase;
@@ -68,14 +68,34 @@ nav ul li {
     cursor: pointer;
 }
 
-@media (max-witdh: 952px) {
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    .nav-link {
-        font-size: 16px;
+@media (max-witdh: 858px) {
+    .checkbtn {
         display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px, 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover {
+        background: none;
+        color: #0082e6;
+    }
+    #check :checked {
+        left: 0;
     }
 }
 
@@ -83,7 +103,6 @@ nav ul li {
 /* Cabecera */
 
 header {
-    height: 100%;
     background-color: blue;
 }
 
@@ -91,7 +110,6 @@ header {
 /* Principal */
 
 main {
-    height: 20%;
     background-color: yellowgreen;
 }
 
@@ -99,22 +117,13 @@ main {
 /* Sección 1 Mision */
 
 .mision {
-    height: 25%;
     background-color: pink;
 }
 
 
 /* Sección 2 Idea */
 
-.idea {
-    height: 20%;
-}
-
-
-/* Sección 1 Mision */
-
-
-/* Sección 2 Idea */
+.idea {}
 
 
 /* Sección 3 Proyectos */
