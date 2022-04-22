@@ -131,20 +131,23 @@ header {
 /* Sección 1 Mision */
 
 .mision {
-    background-color: pink;
+    background-color: #D8BFD8;
 }
 
 
 /* Sección 2 Idea */
 
-.idea {}
+
+/* Sección 1 Mision */
+
+
+/* Sección 2 Idea */
 
 
 /* Sección 3 Proyectos */
 
 .proyectos {
-    height: 20%;
-    background-color: rebeccapurple;
+    background-color: #663399;
 }
 
 .grid-proyectos {
