@@ -1,5 +1,16 @@
 /* Estructura principal */
 
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(http://fonts.google.com/specimen/Comfortaa?query=co);
+    Font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    font-family: Comfortaa;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -109,8 +120,11 @@ header {
 
 /* Principal */
 
-main {
-    background-color: yellowgreen;
+
+/* Sección 1 Mision */
+
+.mision {
+    background-color: blueviolet;
 }
 
 
