@@ -147,19 +147,6 @@ header {
     background-color: rebeccapurple;
 }
 
-
-/* Sección 4 Miembros */
-
-
-/* .miembros {
-    height: 15%;
-} */
-
-
-/* .proyectos{
-    background-color: seagreen;
-} */
-
 .grid-proyectos {
     background-color: orange;
     display: grid;
@@ -181,6 +168,35 @@ header {
 
 .miembros {
     background-color: blueviolet;
+}
+
+.equipo-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.equipo-card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+
+/* media query para equipo */
+
+@media (min-width: 600px) {
+    .equipo-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .equipo-card {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
