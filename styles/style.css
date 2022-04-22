@@ -1,5 +1,13 @@
 /* Estructura principal */
-
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(http://fonts.google.com/specimen/Comfortaa?query=co);
+    Font-style: normal;
+    font-weight: normal;
+}
+html{
+    font-family: Comfortaa;
+}
 * {
     margin: 0;
     padding: 0;
@@ -94,9 +102,6 @@ header {
 .mision{
     background-color: blueviolet;
     
-main {
-    height: 20%;
-    background-color: yellowgreen;
 }
 
 
@@ -113,10 +118,6 @@ main {
 
 /* Sección 2 Idea */
 
-.idea {
-    height:
-}
-
 
 /* Sección 1 Mision */
 
@@ -127,8 +128,7 @@ main {
 /* Sección 3 Proyectos */
 
 .proyectos {
-    height: 
-    background-color: rebeccapurple;
+    background-color: #663399;
 }
 
 
