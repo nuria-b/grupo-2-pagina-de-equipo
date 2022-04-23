@@ -1,13 +1,16 @@
 /* Estructura principal */
+
 @font-face {
     font-family: 'Comfortaa';
     src: url(http://fonts.google.com/specimen/Comfortaa?query=co);
     Font-style: normal;
     font-weight: normal;
 }
-html{
+
+html {
     font-family: Comfortaa;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +34,7 @@ nav {
     width: 100%;
 }
 
-.logo {
+label.logo {
     color: aliceblue;
     font-size: 35px;
     line-height: 80px;
@@ -50,7 +53,7 @@ nav ul li {
     margin: 0 5px;
 }
 
-.nav-link {
+nav ul li a {
     color: aliceblue;
     font-size: 17px;
     text-transform: uppercase;
@@ -76,14 +79,34 @@ nav ul li {
     cursor: pointer;
 }
 
-@media (max-witdh: 952px) {
-    label.logo {
-        font-size: 30px;
-        padding-left: 50px;
-    }
-    .nav-link {
-        font-size: 16px;
+@media (max-witdh: 858px) {
+    .checkbtn {
         display: block;
+    }
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px, 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover {
+        background: none;
+        color: #0082e6;
+    }
+    #check :checked {
+        left: 0;
     }
 }
 
@@ -91,33 +114,28 @@ nav ul li {
 /* Cabecera */
 
 header {
-    height: 100%;
     background-color: blue;
 }
 
 
 /* Principal */
 
+
 /* Sección 1 Mision */
-.mision{
+
+.mision {
     background-color: blueviolet;
-    
 }
 
 
 /* Sección 1 Mision */
 
 .mision {
-    height: 25%;
-    background-color: pink;
+    background-color: #D8BFD8;
 }
 
 
 /* Sección 2 Idea */
-
-.idea {
-    height: 20%;
-}
 
 
 /* Sección 1 Mision */
@@ -129,22 +147,8 @@ header {
 /* Sección 3 Proyectos */
 
 .proyectos {
-    height: 20%;
-    background-color: rebeccapurple;
+    background-color: #663399;
 }
-
-
-/* Sección 4 Miembros */
-
-
-/* .miembros {
-    height: 15%;
-} */
-
-
-/* .proyectos{
-    background-color: seagreen;
-} */
 
 .grid-proyectos {
     background-color: orange;
@@ -167,6 +171,35 @@ header {
 
 .Equipo {
     background-color: blueviolet;
+}
+
+.equipo-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.equipo-card {
+    background-color: dodgerblue;
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+}
+
+
+/* media query para equipo */
+
+@media (max-width: 600px) {
+    .equipo-card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .equipo-card {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 
