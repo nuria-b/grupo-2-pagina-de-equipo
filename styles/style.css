@@ -29,13 +29,13 @@ body {
 /* Menú de navegación */
 
 nav {
-    background: #FF9EB3;
+    background: #f57893;
     height: 80px;
     width: 100%;
 }
 
 label.logo {
-    color: #C561C6;
+    color: #4c044e;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4a025e;
+    color: #4c044e;
     font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 .nav-link:hover {
-    background: #4a025e;
+    background: #0eed28;
     transition: 0.5s;
 }
 
@@ -73,7 +73,7 @@ nav ul li a {
 
 .checkbtn {
     font-size: 30px;
-    color: rgb(112, 1, 111);
+    color: #4c044e;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -88,7 +88,7 @@ nav ul li a {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #7216ce;
+        background: #4c044e;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -104,7 +104,7 @@ nav ul li a {
     }
     a:hover {
         background: none;
-        color: #cd94f8;
+        color: #f21515;
     }
     #check :checked {
         left: 0;
@@ -132,7 +132,7 @@ header {
 /* Sección 1 Mision */
 
 .mision {
-    background-color: #D8BFD8;
+    background-color: #fa86fa;
 }
 
 
