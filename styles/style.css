@@ -54,15 +54,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #F8E0FB;
+    color: #4a025e;
     font-size: 17px;
+    font-weight: bold;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
 }
 
 .nav-link:hover {
-    background: #EFB8FE;
+    background: #4a025e;
     transition: 0.5s;
 }
 
@@ -72,7 +73,7 @@ nav ul li a {
 
 .checkbtn {
     font-size: 30px;
-    color: aliceblue;
+    color: rgb(112, 1, 111);
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -87,7 +88,7 @@ nav ul li a {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #663399;
+        background: #7216ce;
         top: 80px;
         left: -100%;
         text-align: center;
