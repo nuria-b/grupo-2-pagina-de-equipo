@@ -144,10 +144,10 @@ h3 {
 .mision {
     background-color: #fa86fa;
 }
-img{
-    display: block;
-    margin: auto;
-}
+
+img.alineadoTextoImagenCentro{
+    vertical-align: middle;
+  }
 
 /* Sección 2 Idea */
 
