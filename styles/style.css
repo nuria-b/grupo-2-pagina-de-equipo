@@ -103,7 +103,7 @@ nav ul li a {
     }
     a:hover {
         background: none;
-        color: #952ba8;
+        color: #cd94f8;
     }
     #check :checked {
         left: 0;
@@ -114,7 +114,7 @@ nav ul li a {
 /* Cabecera */
 
 header {
-    background-color: blue;
+    background-color: rgb(234, 164, 225);
 }
 
 
