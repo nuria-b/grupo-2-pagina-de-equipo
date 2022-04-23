@@ -116,8 +116,14 @@ nav ul li a {
 
 header {
     background-color: #9106b0;
-    
 }
+    .circular--square {
+        border-top-left-radius: 50% 50%;
+        border-top-right-radius: 50% 50%;
+        border-bottom-right-radius: 50% 50%;
+        border-bottom-left-radius: 50% 50%;
+      }
+
 
 h1{
     margin-left: 50px;
