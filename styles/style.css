@@ -115,7 +115,7 @@ nav ul li a {
 /* Cabecera */
 
 header {
-    background-color: rgb(234, 164, 225);
+    background-color: #9106b0;
 }
 
 
@@ -148,11 +148,11 @@ header {
 /* Sección 3 Proyectos */
 
 .proyectos {
-    background-color: #663399;
+    background-color: #c79af4;
 }
 
 .grid-proyectos {
-    background-color: orange;
+    background-color: #fcc5e7;
     display: grid;
     /* Código para media querie mobile first */
     grid-template-columns: auto;
