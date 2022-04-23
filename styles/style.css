@@ -116,8 +116,12 @@ nav ul li a {
 
 header {
     background-color: #9106b0;
+    
 }
 
+h1{
+    margin-left: 50px;
+}
 
 /* Principal */
 
@@ -126,6 +130,12 @@ header {
 
 .mision {
     background-color: blueviolet;
+}
+h2 {
+    margin-left: 50px;
+}
+h3 {
+    margin-left: 50px;
 }
 
 
