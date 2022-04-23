@@ -54,7 +54,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: aliceblue;
+    color: #F8E0FB;
     font-size: 17px;
     text-transform: uppercase;
     padding: 7px 13px;
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 .nav-link:hover {
-    background: #1b9bff;
+    background: #EFB8FE;
     transition: 0.5s;
 }
 
