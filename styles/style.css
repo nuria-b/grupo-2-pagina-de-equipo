@@ -87,7 +87,7 @@ nav ul li a {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: #663399;
         top: 80px;
         left: -100%;
         text-align: center;
@@ -103,7 +103,7 @@ nav ul li a {
     }
     a:hover {
         background: none;
-        color: #0082e6;
+        color: #952ba8;
     }
     #check :checked {
         left: 0;
