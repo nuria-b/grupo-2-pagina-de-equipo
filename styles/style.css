@@ -115,7 +115,7 @@ nav ul li a {
 /* Cabecera */
 
 header {
-    background-color: #9106b0;
+    background-color: #e462e4;
 }
 
 .imgRedonda {
@@ -139,7 +139,7 @@ h1 {
 /* Sección 1 Mision */
 
 .mision {
-    background-color: blueviolet;
+    background-color: rgb(50, 2, 94);
 }
 
 h2 {
@@ -154,21 +154,27 @@ h3 {
 /* Sección 1 Mision */
 
 .mision {
-    background-color: #fa86fa;
+    background-color: #f9a3c2;
 }
 
 img.alineadoTextoImagenCentro {
     vertical-align: middle;
 }
-
+/* Sección 3 Historia*/
+.historia
+{
+    background-color: #f9a3c2;
+}
 
 /* Sección 2 Idea */
-
+.idea {
+    background-color: #f9a3c2;
+ }
 
 /* Sección 3 Proyectos */
 
 .proyectos {
-    background-color: #c79af4;
+    background-color: #f9a3c2;
 }
 
 .grid-proyectos {
