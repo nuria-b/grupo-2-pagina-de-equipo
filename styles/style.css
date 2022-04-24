@@ -124,21 +124,8 @@ header {
 /* Sección 1 Mision */
 
 .mision {
-    background-color: blueviolet;
-}
-
-
-/* Sección 1 Mision */
-
-.mision {
     background-color: #D8BFD8;
 }
-
-
-/* Sección 2 Idea */
-
-
-/* Sección 1 Mision */
 
 
 /* Sección 2 Idea */
@@ -174,30 +161,36 @@ header {
 }
 
 .equipo-grid {
-    max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
+    padding: 1rem;
 }
 
 .equipo-card {
     background-color: dodgerblue;
-    color: white;
+    color: transparent;
     padding: 1rem;
     height: 4rem;
+}
+
+.equipo-card:hover {
+    background-color: #2c3e50;
+    color: aliceblue;
+    transition: 0.5s;
 }
 
 
 /* media query para equipo */
 
-@media (max-width: 600px) {
-    .equipo-card {
+@media (min-width: 600px) {
+    .equipo-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 900px) {
-    .equipo-card {
+@media (min-width: 900px) {
+    .equipo-grid {
         grid-template-columns: repeat(4, 1fr);
     }
 }
