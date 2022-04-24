@@ -191,7 +191,7 @@ img.alineadoTextoImagenCentro {
 /* Sección 4 Equipo */
 
 .Equipo {
-    background-color: blueviolet;
+    background-color: #fa86fa;
 }
 
 .equipo-grid {
@@ -209,7 +209,7 @@ img.alineadoTextoImagenCentro {
 }
 
 .equipo-card:hover {
-    background-color: #2c3e50;
+    background-color: #fa86fa;
     color: aliceblue;
     transition: 0.5s;
 }
