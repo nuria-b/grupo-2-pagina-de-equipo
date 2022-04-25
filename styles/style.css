@@ -237,7 +237,6 @@ img.alineadoTextoImagenCentro {
     text-align: center;
 }*/
 
-}
 .img-proyectos {
   width: 100%; /* se necesita sobrescribir las dimensiones en línea */
   height: auto;
@@ -313,16 +312,19 @@ img.alineadoTextoImagenCentro {
 }
 
 .equipo-card {
-    background-color: dodgerblue;
     color: transparent;
-    padding: 1rem;
-    height: 4rem;
 }
 
-.equipo-card:hover {
-    background-color: #fa86fa;
+.equipo-img:hover {
+    opacity: 0.3;
     color: aliceblue;
     transition: 0.5s;
+}
+
+.equipo-img{
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
 }
 
 
