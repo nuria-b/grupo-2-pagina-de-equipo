@@ -176,6 +176,123 @@ img.alineadoTextoImagenCentro {
     background-color: #f9a3c2;
 }
 
+:root {
+    --clr-accent: hsl(210 100% 75%);
+    --clr-bg: hsl(270 5% 100%);
+    --clr-bg-dark: hsl(270 2% 50%);
+    --anim-dur: 3s;
+  }
+  
+  .animation-background,
+  .animation-background::before,
+  .animation-background::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    background: radial-gradient(var(--clr-bg) 20%, var(--clr-bg-dark));
+  }
+  
+  .animation {
+    display: flex;
+    justify-items: center;
+    cursor: default;
+    font-size: clamp(1rem, 6vmin, 4rem);
+  }
+  
+  .logo {
+    width: 4em;
+    height: 4em;
+    position: relative;
+  }
+  
+  .logo__block {
+    width: 100%;
+    height: 100%;
+    background: var(--clr-accent);
+    display: grid;
+    place-content: center;
+    font-family: serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    color: var(--clr-bg);
+    animation: spin var(--anim-dur) infinite ease-in-out alternate;
+  }
+  
+  .logo__shadow {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 150%;
+    background: black;
+    filter: blur(.6em);
+  }
+  
+  .tagline {
+    overflow: hidden;
+    width: 0em;
+    position: relative;
+    animation: slide var(--anim-dur) infinite ease-in-out alternate;
+  }
+  
+  .tagline__mask {
+    position: absolute;
+    right: 0;
+    width: 11em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--clr-accent);
+  }
+  
+  .tagline__main {
+    font-size: 1.2em;
+  }
+  
+  .tagline__sub {
+    font-size: .9em;
+  }
+  
+  @keyframes spin {
+    25% {
+      border-radius: 0;
+      transform: rotate(0deg);
+    }
+    50% {
+      border-radius: .2em;
+    }
+    75% {
+      transform: rotate(-2turn);
+      border-radius: 0;
+    }
+    100% {
+      transform: rotate(-2turn);
+    }
+  }
+  
+  @keyframes slide {
+    25% {
+      width: 0em;
+    }
+    75% {
+      width: 12em;
+    }
+    100% {
+      width: 12em;
+    }
+  }
+
 /* Sección 3 Proyectos */
 
 .img {
