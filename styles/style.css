@@ -219,6 +219,20 @@ img.alineadoTextoImagenCentro {
     width: 100%;
     height: auto;
 }
+
+@media (min-width: 600px) {
+    .historia-grupo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 900px) {
+    .historia-grupo {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
 /* Sección 2 Idea */
 .idea {
     background-color: #f9a3c2;
