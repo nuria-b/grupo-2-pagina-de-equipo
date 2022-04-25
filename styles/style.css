@@ -209,16 +209,18 @@ img.alineadoTextoImagenCentro {
 }
 
 .equipo-card {
-    background-color: dodgerblue;
     color: transparent;
-    padding: 1rem;
-    height: 4rem;
 }
 
 .equipo-card:hover {
     background-color: #fa86fa;
     color: aliceblue;
     transition: 0.5s;
+}
+
+.equipo-img{
+    width: 100%;
+    height: auto;
 }
 
 
