@@ -174,25 +174,86 @@ img.alineadoTextoImagenCentro {
 
 /* Sección 3 Proyectos */
 
-.proyectos {
-    background-color: #f9a3c2;
-}
+/*.proyectos {*/
+    /*background-color: #f9a3c2;*/
+/*}*/
 
-.grid-proyectos {
-    background-color: #fcc5e7;
-    display: grid;
+/*.grid-proyectos {*/
+    /*background-color: #fcc5e7;*/
+    /*display: grid;*/
     /* Código para media querie mobile first */
-    grid-template-columns: auto;
-    padding: 3em;
+    /*grid-template-columns: auto;*/
+    /*padding: 3em;*/
     /* Código para media querie pantalla ordenador - tv */
     /*grid-template-columns: repeat(4, 25%); 
     grid-gap: 9em;*/
-}
+/*}*/
 
-.proyectos>h2 {
+/*.proyectos>h2 {
     font-size: 2em;
     text-align: center;
+}*/
+
 }
+.img-proyectos {
+  width: 100%; /* se necesita sobrescribir las dimensiones en línea */
+  height: auto;
+}
+.titulo-proyectos {
+  margin-bottom: .5em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+  position: relative;
+}
+
+.location-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.location-image>.img-proyectos {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.location-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(90,0,10,0.4);
+  color: white;
+  
+  /* centrar el texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-listing:hover .location-title {
+  opacity: 1;
+}
+
+.location-listing:hover .location-image .img-proyectos {
+  filter: blur(2px);
+}
+
 
 
 /* Sección 4 Equipo */
