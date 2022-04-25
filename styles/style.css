@@ -206,9 +206,14 @@ img.alineadoTextoImagenCentro {
     vertical-align: middle;
 }
 /* Sección 3 Historia*/
-.historia
+.historia-grupo
 {
     background-color: #f9a3c2;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    
 }
 .historia-img{
     width: 100%;
