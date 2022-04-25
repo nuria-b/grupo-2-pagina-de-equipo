@@ -210,7 +210,10 @@ img.alineadoTextoImagenCentro {
 {
     background-color: #f9a3c2;
 }
-
+.historia-img{
+    width: 100%;
+    height: auto;
+}
 /* Sección 2 Idea */
 .idea {
     background-color: #f9a3c2;
