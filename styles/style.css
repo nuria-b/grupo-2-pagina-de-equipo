@@ -159,6 +159,8 @@ h1 {
 
 /* Sección 1 Mision */
 
+
+
 .mision {
     background-color: #f9a3c2;
     height: 500px;
@@ -173,6 +175,7 @@ h1 {
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
+    clear: both;
     
 }
 .historia-img{
