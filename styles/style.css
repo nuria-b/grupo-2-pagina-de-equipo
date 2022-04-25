@@ -78,11 +78,13 @@ nav ul li a {
     line-height: 80px;
     margin-right: 40px;
     cursor: pointer;
+    visibility: visible;
 }
 
 @media (max-witdh: 858px) {
     .checkbtn {
         display: block;
+        visibility: hidden;
     }
     ul {
         position: fixed;
