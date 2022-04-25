@@ -210,34 +210,85 @@ img.alineadoTextoImagenCentro {
 {
     background-color: #f9a3c2;
 }
-
+.historia-img{
+    width: 100%;
+    height: auto;
+}
 /* Sección 2 Idea */
 .idea {
     background-color: #f9a3c2;
 }
 
 /* Sección 3 Proyectos */
-.proyectos-grid{
+
+img {
+    width: 100%; /* se necesita sobrescribir las dimensiones en línea */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: .5em;
+  }
+  .proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+  }
+  
+  
+  /* hover styles */
+  .proyectos-card {
     position: relative;
+  }
+  
+  .proyectos-image {
+    line-height: 0;
+    overflow: hidden;
+  }
+  
+  .proyectos-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+  }
+  
+  .proyectos-coder {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    
+    /* centrar el texto */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-.proyectos-card>h2{
-    font-weight: normal;
-}
-.proyectos-card{
-    position: absolute;
-    color: #FFFFFF;
-    top: 9em;
-    margin-left: 4em;
-    margin-right: 4em;
-    text-align: center;
-    margin-bottom: 2em;
+  
+  .proyectos-card:hover .proyectos-coder {
+    opacity: 1;
   }
-  .img-proyectos{
-    width: 25%;
+  
+  .proyectos-card:hover .proyectos-image img {
+    filter: blur(2px);
   }
+  
+  /* para dispositivos de pantalla táctil */
+  /*@media (hover: none) { 
+    .proyectos-coder {
+      opacity: 1;
+    }
+    .proyectos-image img {
+      filter: blur(2px);
+    }
+  }*/
 
 /* Sección 4 Equipo */
 
