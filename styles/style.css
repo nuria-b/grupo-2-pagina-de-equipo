@@ -138,8 +138,19 @@ h1 {
 
 .mision {
     background-color: #f9a3c2;
+    height: 500px;
+    width: auto;
 }
 
+<<<<<<< HEAD
+=======
+img {
+    height: 250px;
+    width: 250px;
+}
+   
+
+>>>>>>> a575c704b1af951e1b15040077a5c95b88c0807e
 /* Sección 3 Historia*/
 .historia-grupo
 {
@@ -293,7 +304,7 @@ h1 {
     height: auto;
 }
 h2 {
-    margin-bottom: .5em;
+    margin-bottom: 5em;
 }
 .proyectos-grid {
     display: grid;
