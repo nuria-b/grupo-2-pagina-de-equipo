@@ -133,6 +133,49 @@ h1 {
     margin-left: 150px;
 }
 
+/*Hero Image*/
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2021/08/06/11/47/vagina-6526073_960_720.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+
 
 /* Principal */
 
@@ -194,25 +237,6 @@ img.alineadoTextoImagenCentro {
   .img-proyectos{
     width: 25%;
   }
-/*.proyectos-card:hover {
-    background-color: #fa86fa;
-    color: aliceblue;
-    transition: 0.5s;
-}*/
-  
-/* Responsive layout */
-/* @media screen and (max-width: 800px) {
-    .proyectos-card {
-      flex: 50%;
-      max-width: 50%;
-    }
-}
-@media screen and (max-width: 600px) {
-    .proyectos-card {
-      flex: 100%;
-      max-width: 100%;
-    }
-}*/
 
 /* Sección 4 Equipo */
 
@@ -228,16 +252,19 @@ img.alineadoTextoImagenCentro {
 }
 
 .equipo-card {
-    background-color: dodgerblue;
     color: transparent;
-    padding: 1rem;
-    height: 4rem;
 }
 
-.equipo-card:hover {
-    background-color: #fa86fa;
+.equipo-img:hover {
+    opacity: 0.3;
     color: aliceblue;
     transition: 0.5s;
+}
+
+.equipo-img{
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
 }
 
 
@@ -258,9 +285,6 @@ img.alineadoTextoImagenCentro {
 
 /* Footer */
 
-footer {
-    background-color: maroon;
-}
 
 
 /* Media queries */
