@@ -311,8 +311,8 @@ img {
 }
 
 .equipo-card:hover{
-    color: black;
     transition: 0.5s;
+    color: black;
 }
 
 
@@ -323,7 +323,6 @@ img {
 .equipo-img{
     width: 100%;
     height: auto;
-    opacity: 1.0;
 }
 
 .equipo-text{
@@ -332,7 +331,6 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 
 /* media query para equipo */
