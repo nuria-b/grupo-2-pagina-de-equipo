@@ -209,14 +209,16 @@ img.alineadoTextoImagenCentro {
 .historia
 {
     background-color: #f9a3c2;
+    display:flex;
     
 }
 .historia-img{
     width: 25%;
     height: auto;
-    display:flex;
+    flex-direction: row;
     justify-content: center;
-    align-content: space-between;
+    align-content: flex-start
+
 }
 /* Sección 2 Idea */
 .idea {
