@@ -117,7 +117,9 @@ nav ul li a {
 
 header {
     background-color: #e462e4;
-    margin-bottom: 100%;
+    margin: .5em;
+    margin: 2em;
+
 }
 
 .imgRedonda {
