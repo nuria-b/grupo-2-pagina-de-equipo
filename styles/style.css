@@ -136,13 +136,45 @@ h1 {
 
 /* Sección 1 Mision */
 
-.mision {
-    background-color: #f9a3c2;
-}
+/*
+Uses Grid for a clean Alternating image/text pattern
+*/
 
-img.alineadoTextoImagenCentro {
-    vertical-align: middle;
-}
+.img-mision {
+    width: 100%;
+  }
+  .container-mision {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  .block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 51px;
+  }
+  .block:nth-child(even) .image {
+    grid-column: 2;
+  }
+  .block:nth-child(even) .copy {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  @media (max-width: 800px) {
+    .block {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .block:nth-child(even) .image {
+      grid-column: unset;
+    }
+    .block:nth-child(even) .copy {
+      grid-row: unset;
+    }
+  }
 /* Sección 3 Historia*/
 .historia-grupo
 {
@@ -295,7 +327,7 @@ img.alineadoTextoImagenCentro {
     width: 100%; /* se necesita sobrescribir las dimensiones en línea */
     height: auto;
 }
-h2 {
+h2, h3 {
     margin-bottom: .5em;
 }
 .proyectos-grid {
@@ -426,16 +458,3 @@ h2 {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-
-
-/* Footer */
-
-
-
-/* Media queries */
-
-
-/* 
-@media (max-width: 600px) {
-}
-*/
