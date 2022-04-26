@@ -213,9 +213,29 @@ span {
     
 }
 .historia-img{
-    width: 100%;
+    width: 50%;
     height: auto;
 }
+#contenedor_principal{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: auto;
+    }
+    .contenedor_imagen_texto{
+    width:50%;
+    height:auto;
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    overflow:hidden;
+    }
+    .imagen, .texto{
+    width:50%;
+    height:auto;
+    position:relative;
+    display:inline;
+    }
 
 @media (min-width: 600px) {
     .historia-grupo {
