@@ -21,11 +21,14 @@ html{
     }
 
     body {
+    margin: 0;
+    padding: 0;
+
     display:inline-block;
     display: grid;
     overflow-x: hidden;
     background: rgb(244,127,167);
-background: radial-gradient(circle, rgba(244,127,167,1) 52%, rgba(232,119,233,1) 81%);
+    background: radial-gradient(circle, rgba(244,127,167,1) 52%, rgba(232,119,233,1) 81%);
     }
 
 /* Menú de navegación */
@@ -139,10 +142,7 @@ header {
 
 
 /* Hero Image*/
-body {
-    margin: 0;
-    padding: 0;
-}
+
 .hero {
     position: relative;
     width: 100vw;
