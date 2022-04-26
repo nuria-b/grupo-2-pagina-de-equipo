@@ -117,11 +117,12 @@ nav ul li a {
 
 header {
     background-color: #e462e4;
+    margin-bottom: 100%;
 }
 
 .imgRedonda {
     margin-left: 50px;
-    max-width: 100%;
+    max-width: 100he%;
     max-height: 80%;
     width: 100px;
     height: 100px;
