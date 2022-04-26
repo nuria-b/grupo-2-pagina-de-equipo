@@ -145,7 +145,10 @@ header {
 ::before {
     box-sizing: border-box;
 }
-
+.gfg {
+    filter: blur(5px);
+    width: 100%;
+     }
 .hero-container{
     background: url(<a href="https://ibb.co/d4CwHTC"><img src="https://i.ibb.co/chfSsBf/vulva1.jpg" alt="vulva1" border="0"></a>) center/cover>
     height: 2000vh;
