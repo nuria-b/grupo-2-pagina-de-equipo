@@ -115,8 +115,8 @@ nav ul li a {
 
 /* Cabecera */
 
-header {
-    background-color: #e462e4;
+.logo {
+    color: #e462e4;
 
 
 }
