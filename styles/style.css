@@ -138,10 +138,6 @@ h1 {
 
 /* Sección 1 Mision */
 
-/*
-Uses Grid for a clean Alternating image/text pattern
-*/
-
 .img-mision {
     width: 100%;
   }
@@ -178,19 +174,15 @@ Uses Grid for a clean Alternating image/text pattern
     }
   }
 /* Sección 3 Historia*/
-.historia-grupo
-{
-    background-color: #f9a3c2;
-    margin: 0 auto;
+.historia-grupo{
     display: grid;
-    grid-gap: 1rem;
-    padding: 1rem;
-    
+    place-items: center;
 }
 .historia-img{
     width: 100%;
     height: auto;
 }
+
 
 @media (min-width: 600px) {
     .historia-grupo {
@@ -208,6 +200,7 @@ Uses Grid for a clean Alternating image/text pattern
 /* Sección 2 Idea */
 .idea {
     background-color: #f9a3c2;
+    display: grid;
 }
 
 :root {
