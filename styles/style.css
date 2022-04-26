@@ -24,7 +24,7 @@ html{
     display: grid;
     overflow-x: hidden;
     background: rgb(244,127,167);
-    background: linear-gradient(0deg, rgba(244,127,167,1) 0%, rgba(232,119,233,1) 100%);
+background: radial-gradient(circle, rgba(244,127,167,1) 52%, rgba(232,119,233,1) 81%);
     }
 
 /* Menú de navegación */
@@ -117,7 +117,7 @@ nav ul li a {
 /* Cabecera */
 
 header {
-    background-color: #e462e4;
+    background-color: #ab0fb3;
 
 
 }
