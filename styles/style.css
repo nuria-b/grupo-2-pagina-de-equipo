@@ -13,17 +13,18 @@
     list-style: none;
     padding: 0;
 }
-
-html {
+html{
     font-family: Comfortaa;
-}
-
-body {
     width: 100vw;
     height: 100vh;
-    display: grid;
-}
+    white-space:nowrap;
+    }
 
+    body {
+    display:inline-block;
+    display: grid;
+    overflow: hidden
+    }
 
 /* Menú de navegación */
 
