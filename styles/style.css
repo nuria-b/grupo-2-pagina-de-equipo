@@ -179,10 +179,13 @@ h1 {
     }
   }
 /* Sección 3 Historia*/
-.historia-grupo{
+.block-history {
     display: grid;
     place-items: center;
-}
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 51px;
+  }
 .historia-img{
     width: 100%;
     height: auto;
