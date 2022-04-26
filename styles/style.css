@@ -29,6 +29,7 @@ body {
     background: radial-gradient(circle, rgba(244,127,167,1) 52%, rgba(232,119,233,1) 81%);
     }
 
+
 /* Menú de navegación */
 
 nav {
@@ -43,7 +44,7 @@ label.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
-    text-align: left;
+    text-align:
 }
 
 nav ul {
@@ -124,16 +125,14 @@ header {
 }
 
 .imgRedonda {
-    border-radius: 2000px;
-    border: 4px solid black;
-    float: left;
-    margin-top: 15px;
-    margin-left: 50px;
-    max-width: 100he%;
-    max-height: 100%;
+    margin-left: 100px;
+    max-width: 100px;
+    max-height: 50px;
     width: 50px;
-    height: 50px;
-    
+    height: 100px;
+    border-radius: 2000px;
+    border: 4px solid rgb(0, 0, 0);
+}
 
 h1 {
     margin-left: 1500px;
@@ -142,6 +141,10 @@ h1 {
 /* Hero Image*/
 
 /* Sección 1 Mision */
+
+/*
+Uses Grid for a clean Alternating image/text pattern
+*/
 
 .img-mision {
     width: 100%;
@@ -179,18 +182,18 @@ h1 {
     }
   }
 /* Sección 3 Historia*/
-.block-history {
+.historia-grupo
+{
+    margin: 0 auto;
     display: grid;
-    place-items: center;
-    gap: 30px;
-    align-items: center;
-    margin-bottom: 51px;
-  }
+    grid-gap: 1rem;
+    padding: 1rem;
+    
+}
 .historia-img{
     width: 100%;
     height: auto;
 }
-
 
 @media (min-width: 600px) {
     .historia-grupo {
@@ -207,8 +210,7 @@ h1 {
 
 /* Sección 2 Idea */
 .idea {
-    background-color: #f9a3c2;
-    display: grid;
+    
 }
 
 :root {
