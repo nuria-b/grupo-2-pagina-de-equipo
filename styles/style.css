@@ -23,8 +23,7 @@ html{
     display:inline-block;
     display: grid;
     overflow-x: hidden;
-    background: #fda7cf;
-  background: linear-gradient(135deg, #f2b0f9 50%, #fda7cf 100%); 
+    background: linear-gradient(135deg, #cb75cb 50%, #fda7cf 100%); 
     
     }
 
