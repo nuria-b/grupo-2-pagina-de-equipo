@@ -22,6 +22,7 @@ html{
     body {
     display:inline-block;
     display: grid;
+    overflow-x: hidden;
     
     }
 
