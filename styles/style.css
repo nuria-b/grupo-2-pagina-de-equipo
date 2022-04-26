@@ -17,6 +17,7 @@ html{
     font-family: Comfortaa;
     width: 100vw;
     height: 100vh;
+    margin: .5em;
     }
 
     body {
@@ -117,8 +118,7 @@ nav ul li a {
 
 header {
     background-color: #e462e4;
-    margin: .5em;
-    
+
 
 }
 
