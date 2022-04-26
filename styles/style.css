@@ -148,13 +148,13 @@ header {
 
 .hero-container{
     background: url(<a href="https://ibb.co/d4CwHTC"><img src="https://i.ibb.co/chfSsBf/vulva1.jpg" alt="vulva1" border="0"></a>) center/cover>
-    height: 100vh;
+    height: 2000vh;
     position: relative;
     
 }
 .hero-container::before{
     content:"";
-    background: #fe0172;
+    background: #9b5fb0;
     position: absolute;
     width: 100%;
     height: 100%;
