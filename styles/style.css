@@ -13,28 +13,22 @@
     list-style: none;
     padding: 0;
 }
-html{
+
+html {
     font-family: Comfortaa;
+}
+
+body {
     width: 100vw;
     height: 100vh;
-
-    }
-
-    body {
-    margin: 0;
-    padding: 0;
-
-    display:inline-block;
     display: grid;
-    overflow-x: hidden;
-    background: rgb(244,127,167);
-    background: radial-gradient(circle, rgba(244,127,167,1) 52%, rgba(232,119,233,1) 81%);
-    }
+}
+
 
 /* Menú de navegación */
 
 nav {
-    background: #f94a9c;
+    background: #f57893;
     height: 80px;
     width: 100%;
 }
@@ -121,119 +115,49 @@ nav ul li a {
 /* Cabecera */
 
 header {
-    background-color: #8b2087;
-
-
+    background-color: #e462e4;
 }
 
 .imgRedonda {
-    border-radius: 2000px;
-    border: 4px solid black;
-    float: left;
-    margin-top: 15px;
     margin-left: 50px;
-    max-width: 100he%;
-    max-height: 100%;
-    width: 50px;
-    height: 50px;
-    
+    max-width: 60%;
+    max-height: 80%;
+    width: 100px;
+    height: 100px;
+    border-radius: 2000px;
+    border: 4px solid rgb(0, 0, 0);
+}
+
+h1 {
+    margin-left: 150px;
 }
 
 /* Hero Image*/
-*,
-::after,
-::before {
-    box-sizing: border-box;
-}
-.gfg {
-    filter: blur(5px);
-    width: 100%;
-     }
-.hero-container{
-    background: url(<a href="https://ibb.co/d4CwHTC"><img src="https://i.ibb.co/chfSsBf/vulva1.jpg" alt="vulva1" border="0"></a>) center/cover>
-    height: 2000vh;
-    position: relative;
-    
-}
-.hero-container::before{
-    content:"";
-    background: #9b5fb0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0.7;
-}
-hero-body {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-
-}
-h1, p {
-        padding: 10px 50px;
-        position: relative;
-        border-radius: 10px;
-        color: black;
-}
-h1:hover {
-    background: -webkit-linear-gradient( rgb(200, 28, 157), rgb(217, 17, 64));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-span {
-        text-align:center;
-        position: absolute;
-        font-size: 18px;
-        top: 50px;
-        left: 27%;
-        color: rgb(4, 0, 0);
-
-}
-
 
 /* Sección 1 Mision */
 
 .mision {
-    margin: auto;
-    height: 150px;
-    width: auto;
+    background-color: #f9a3c2;
 }
 
+img.alineadoTextoImagenCentro {
+    vertical-align: middle;
+}
 /* Sección 3 Historia*/
 .historia-grupo
 {
+    background-color: #f9a3c2;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
     padding: 1rem;
-    clear: both;
     
 }
 .historia-img{
-    width: 50%;
+    width: 100%;
     height: auto;
 }
-#contenedor_principal{
-    width: auto;
-    height: auto;
-    position: relative;
-    margin: auto;
-    }
-    .contenedor_imagen_texto{
-        width: 1000px;
-        height:1000px;
-        max-width:50%;
-        max-height:50%;
-    position:relative;
-    display:inline-block;
-    vertical-align: top;
-    overflow: hidden;
-    }
-   
+
 @media (min-width: 600px) {
     .historia-grupo {
         grid-template-columns: repeat(2, 1fr);
@@ -249,6 +173,7 @@ span {
 
 /* Sección 2 Idea */
 .idea {
+    background-color: #f9a3c2;
 }
 
 :root {
@@ -284,7 +209,6 @@ span {
     width: 4em;
     height: 4em;
     position: relative;
-
 }
   
 .logo__block {
@@ -372,7 +296,7 @@ span {
     height: auto;
 }
 h2 {
-    margin-bottom: 5em;
+    margin-bottom: .5em;
 }
 .proyectos-grid {
     display: grid;
@@ -449,6 +373,7 @@ h2 {
 /* Sección 4 Equipo */
 
 .equipo {
+    background-color: #fa86fa;
 }
 
 .equipo-grid {
