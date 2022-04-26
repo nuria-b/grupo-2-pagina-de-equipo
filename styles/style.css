@@ -23,6 +23,8 @@ html{
     display:inline-block;
     display: grid;
     overflow-x: hidden;
+    background: #f2b0f9;
+  background: linear-gradient(135deg, #f2b0f9 23%, #fda7cf 100%); 
     
     }
 
@@ -149,7 +151,6 @@ header {
 
 
 .mision {
-    background-color: #f9a3c2;
     height: 500px;
     width: auto;
 }
@@ -157,7 +158,6 @@ header {
 /* Sección 3 Historia*/
 .historia-grupo
 {
-    background-color: #f9a3c2;
     margin: 0 auto;
     display: grid;
     grid-gap: 1rem;
@@ -185,7 +185,6 @@ header {
 
 /* Sección 2 Idea */
 .idea {
-    background-color: #f9a3c2;
 }
 
 :root {
@@ -386,7 +385,6 @@ h2 {
 /* Sección 4 Equipo */
 
 .equipo {
-    background-color: #fa86fa;
 }
 
 .equipo-grid {
