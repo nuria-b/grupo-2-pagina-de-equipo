@@ -23,8 +23,8 @@ html{
     display:inline-block;
     display: grid;
     overflow-x: hidden;
-    background: linear-gradient(135deg, #cb75cb 50%, #fda7cf 100%); 
-    
+    background: rgb(244,127,167);
+    background: linear-gradient(0deg, rgba(244,127,167,1) 0%, rgba(232,119,233,1) 100%);
     }
 
 /* Menú de navegación */
