@@ -198,6 +198,7 @@ span {
 /* Sección 1 Mision */
 
 .mision {
+    margin: auto;
     height: 150px;
     width: auto;
 }
@@ -223,12 +224,14 @@ span {
     margin: auto;
     }
     .contenedor_imagen_texto{
-    width: 5em;
-    height: 10em;
+        width: 1500px;
+        height:1500px;
+        max-width:50%;
+        max-height:50%;
     position:relative;
     display:inline-block;
-    vertical-align:top;
-    overflow:hidden;
+    vertical-align: top;
+    overflow: hidden;
     }
    
 @media (min-width: 600px) {
