@@ -217,26 +217,20 @@ span {
     height: auto;
 }
 #contenedor_principal{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     position: relative;
     margin: auto;
     }
     .contenedor_imagen_texto{
-    width:50%;
-    height:auto;
+    width:100px;
+    height:100px;
     position:relative;
     display:inline-block;
     vertical-align:top;
     overflow:hidden;
     }
-    .imagen, .texto{
-    width:50%;
-    height:auto;
-    position:relative;
-    display:inline;
-    }
-
+   
 @media (min-width: 600px) {
     .historia-grupo {
         grid-template-columns: repeat(2, 1fr);
