@@ -138,16 +138,11 @@ h1 {
 
 .mision {
     background-color: #f9a3c2;
-    height: 500px;
-    width: auto;
 }
 
-img {
-    height: 250px;
-    width: 250px;
+img.alineadoTextoImagenCentro {
+    vertical-align: middle;
 }
-   
-
 /* Sección 3 Historia*/
 .historia-grupo
 {
@@ -301,7 +296,7 @@ img {
     height: auto;
 }
 h2 {
-    margin-bottom: 5em;
+    margin-bottom: .5em;
 }
 .proyectos-grid {
     display: grid;
